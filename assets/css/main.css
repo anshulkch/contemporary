@@ -1920,12 +1920,17 @@ ol.default li {
     background-position: center center;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    height: 500px;
     text-align: center;
+}
+#banner nav{
+    padding-top: 20px;
 }
 
 #banner header {
     background-color: #252122;
     background-color: rgba(34, 30, 31, 0.98);
+    margin-top: 10%;
 }
 
 #banner header h2 {
@@ -2136,9 +2141,9 @@ ol.default li {
     }
 
     /* Wrappers */
-    #header-wrapper {
+    /*#header-wrapper {
         padding: 4.5em 0 4em 0;
-    }
+    } */
 
     #main-wrapper {
         padding: 4em 0 4em 0;
@@ -2187,6 +2192,7 @@ ol.default li {
     #nav > ul > li > a {
         border-radius: 5px;
         color: #5d5d5d;
+        background: #ffffff;
         text-decoration: none;
         padding: 0.6em 1.2em 0.6em 1.2em;
         -moz-transition: background-color .25s ease-in-out;
@@ -2256,8 +2262,8 @@ ol.default li {
     /* Banner */
     #banner {
         position: relative;
-        padding: 8em 0;
-        margin: 4em 0 0 0;
+        /* padding: 8em 0; */
+       /* margin: 4em 0 0 0;*/
     }
 
     #banner header {
@@ -2370,9 +2376,9 @@ ol.default li {
     }
 
     /* Wrappers */
-    #header-wrapper {
+    /*#header-wrapper {
         padding: 3em 0 3em 0;
-    }
+    }*/
 
     #main-wrapper {
         padding: 2.75em 0 2.75em 0;
@@ -2401,8 +2407,8 @@ ol.default li {
 
     /* Banner */
     #banner {
-        padding: 6em 0;
-        margin: 3em 0 0 0;
+        /*padding: 6em 0;*/
+       /* margin: 3em 0 0 0;*/
     }
 
     /* Intro */
@@ -2697,9 +2703,9 @@ ol.default li {
         overflow: hidden;
     }
 
-    #header-wrapper {
+    /*#header-wrapper {
         padding: 2em 0;
-    }
+    }*/
 
     #footer-wrapper {
         padding: 2em 25px;
@@ -2747,7 +2753,7 @@ ol.default li {
 
     /* Banner */
     #banner {
-        margin: 2em 0 4em 0 !important;
+        /*margin: 2em 0 4em 0 !important;*/
         padding: 6em 0;
     }
 
