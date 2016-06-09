@@ -2141,9 +2141,9 @@ ol.default li {
     }
 
     /* Wrappers */
-    /*#header-wrapper {
+    #header-wrapper {
         padding: 4.5em 0 4em 0;
-    } */
+    }
 
     #main-wrapper {
         padding: 4em 0 4em 0;
@@ -2376,9 +2376,9 @@ ol.default li {
     }
 
     /* Wrappers */
-    /*#header-wrapper {
+    #header-wrapper {
         padding: 3em 0 3em 0;
-    }*/
+    }
 
     #main-wrapper {
         padding: 2.75em 0 2.75em 0;
@@ -2703,9 +2703,9 @@ ol.default li {
         overflow: hidden;
     }
 
-    /*#header-wrapper {
+    #header-wrapper {
         padding: 2em 0;
-    }*/
+    }
 
     #footer-wrapper {
         padding: 2em 25px;
@@ -2785,4 +2785,8 @@ ol.default li {
 .hangingindent {
     padding-left: 22px;
     text-indent: -22px;
+}
+
+.homepage #header-wrapper {
+    padding: 0 !important;
 }
